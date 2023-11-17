@@ -1,0 +1,41 @@
+/* FormPage.css */
+.form-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .form input,
+  .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .form-button:last-child {
+    margin-right: 0;
+  }
+  

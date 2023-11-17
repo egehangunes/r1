@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color:white;
+  padding: 20px;
+  color: black;
+}
+
+.sepet-listesi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.sepet-container {
+  margin: 20px;
+  background-color: #666;
+}
+
+.sepet-listesi {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.sepet-listesi1 {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: lightsalmon;
+  border-radius: 5px;
+}
+
+.urun {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e72a2a;
+  padding: 10px;
+}
+
+.urun img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.urun-detay {
+  flex: 1;
+}
+
+.urun-baslik {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.urun-fiyat {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.bos-sepet {
+  font-style: italic;
+  color: #666;
+}
+
+.toplam-fiyat {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 10px;
+  margin-left: 700px;
+}
+
+
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.categories-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category {
+  padding:10px;
+  height: 35px;
+  text-align: center;
+              margin: 5px;
+              cursor: pointer;
+              border-radius: 5px;
+              background-color:  teal;
+           
+}
+#buton{
+  margin-left: 900px;
+  width:100px;
+  height:50px;
+  background-color: teal;
+}

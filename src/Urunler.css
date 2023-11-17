@@ -1,0 +1,60 @@
+/* Urunler.css */
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .category-item {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .category-item.active {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .product-image {
+    max-width: 100px;
+    margin: 0 auto;
+  }
+  
+  .product-title {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  #showCartButton{
+    color:red;
+    margin-left: 1200px;
+  }
+  .cart-item-image-small {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+  }
